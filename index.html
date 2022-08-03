@@ -1,11 +1,59 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello world</title>
-</head>
-<body>
-  
-</body>
+<!--Es importante que la primera linea de comando se llame index, para que la computadora pueda reconcerlo rápidamenete y no haya necesidad de indicarle cuál es la página principal-->
+<!DOCTYPE html> <!-- Indica que se trata de HTML 5-->
+<html lang="es"> <!-- Contenedor principal de la página (el que almacena todo)-->
+    <head> <!-- Todo lo importante para el navegador para poder cargar el proyecto: Dependencias, liberías externas, fuentes o CSS -->
+        <meta charset="UTF-8"> <!-- Permite mostrar caracteres especiales "ñ" "´" "emojis" -->
+        <meta name="description" content="Obten tu diplomado estudiando donde y cuando desees, y por un precio asequible"> <!-- Parte de CEO,  muestra la información que aparecerá en la descripción básica del programa-->
+        <meta name="robots" content="index,follow"><!-- Autoriza a la IA a mostrar resultados con la descripción similar -->
+        <title>ICEP: Curso de diplomados y especialización</title> <!-- Muestra el título que aparece en la pestaña del navegador -->
+        <meta name="viewport" content="width=device-width, inictial-scale=1.0"> <!-- Importante para los proyectos responsive. viewport: Tamaño de la pantalla. Es importante para que se escale el texto en un dispositivo celular -->
+        <link rel="stylesheet" href="./CSS/style.css"> <!-- ./(para búsqueda). Carpeta de modelamiento de CSS -->
+    </head>
+    <body> <!-- Elementos visibles. A diferencia del head, este almacena la información que se mostrará. Lo que hay ahora es conocido como maquetación o layaout. El orden en cómo van se llama semántica -->
+        <header>
+            <nav>
+
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article>
+
+                </article>
+            </section>
+            <ul>
+                <li></li>
+            </ul> <!-- Unordered list -->
+            <ol></ol> <!-- Ordered list -->
+        </main>
+        <footer>
+
+        </footer>
+        <h1> Listas de compras para el supermercado </h1>
+        <p> En esta página te informarás sobre las dietas equilibradas mejor recomendadas por nutricionistas para que comiences el día con energía </p>
+        <ul>
+            <li> Frutas: 
+                <ol>
+                    <li> Tomate </li>
+                    <li> Manzana </li>
+                    <li> Fresa </li>
+                </ol></li>
+            <li> Carnes:
+                <ol>
+                    <li> Pescado </li>
+                    <li> Res </li>
+                    <li> Pollo </li>
+                </ol>
+            </li>
+            <li> Verduras:
+                <ol>
+                    <li> Zanahoria </li>
+                    <li> <a href="https://www.google.com/search?gs_ssp=eJzj4tTP1TewNI23MDJg9BJNrSgpSkwuyVdISVWoSsxLzMgvykwEAKyjCwY&q=extracto+de+zanahoria&rlz=1C1ALOY_esPE955PE955&oq=extracto+de+&aqs=chrome.1.69i57j46i395i415i424i512j0i395i512j46i395i415i424i512j0i395i512l5j0i271.8786j1j7&sourceid=chrome&ie=UTF-8" target="_blank"> Apio </a> </li>
+                </ol>
+            </li>
+        </ul>
+        <a href="#" target="_blank"> Más información </a> <!-- Genera hipervínculos (vínculos externos). target="_blank" para abrir el vínculo en una nueva pestaña. -->
+    </body>
 </html>
+
+<!-- doc + enter = Crea la estructura básica de un HTML -->
